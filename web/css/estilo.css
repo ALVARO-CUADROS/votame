@@ -1,0 +1,24 @@
+.div_sesion{
+    top: 1%;
+    width: 99%;
+    background: #E5E5E5;
+    border-bottom: 10px;
+    border-radius: 5px;
+    padding-right: 10px;
+    color: #326875;
+}
+
+.section{
+    margin-left: 120px;
+}
+
+html, body {
+	width: 99%;
+	height: 99%;
+	color: #444;
+	-webkit-font-smoothing: antialiased;
+	font: 13px/20px 'Lucida Grande', Tahoma, Verdana, sans-serif;
+  color: #404040;
+  background: #ecf4f6;
+	
+}

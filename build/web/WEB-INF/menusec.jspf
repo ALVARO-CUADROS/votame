@@ -1,0 +1,17 @@
+<%-- any content can be specified here e.g.: --%>
+<%@page import="Entidades.conectadorol"%>
+<%@ page pageEncoding="UTF-8" %>
+<div class="div_sesion" align="right">
+    <%
+        conectadorol n = new conectadorol();
+       
+            out.println("<div class='wrap'><nav><ul class='menu'><li><a href='../Votemos.jsp'><span class='iconic home'></span> Inicio</a></li>"
+                + "<li><a href='../Candidatos.jsp'><span class='iconic plus-alt'></span> Candidatos</a></li>"
+                + "<li><a href='../Votar.jsp'><span class='iconic mail'></span> Votar</a></li>"
+                + "<li><a href='../Acerca_de.jsp'><span class='iconic mail'></span> Acerca de</a></li>"
+                + "<li><a href='../login.jsp'><span class='iconic map-pin'></span> Inicio Sesión</a></li>"
+                + "</ul><div class='clearfix'></div></nav></div>");
+        %>
+
+
+
